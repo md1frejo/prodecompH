@@ -5,15 +5,6 @@ module Constants where
 sweep :: Float
 sweep = 75.1231
 
-data Person = Person { 
-      firstName :: String,  
-      lastName :: String,  
-      age :: Int,  
-      height :: Float,  
-      phoneNumber :: String,  
-      flavor :: String  
-    } deriving (Show)   
-
 data Aminoacid = Aminoacid { 
       longName :: String,
       threeName :: String,
